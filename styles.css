@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fmoneydotcomvip.files.wordpress.com%2F2016%2F02%2F160218_em_cashtip.jpg&w=950&c=sc&poi=face&q=85");
+  background-size: cover;
+  font-family: sans-serif;
+  color: #333;
+  height: 100vh;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin: 20px auto;
+  font-size: 65px;
+  font-weight: normal;
+  font-family: "Bree Sarif";
+  background-color: #872c2d;
+  padding: 25px 0;
+  width: 500px;
+}
+
+.container {
+  margin: 20px auto;
+  width: 500px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 2px #888;
+}
+
+.inputs,
+.totals {
+  flex: 1;
+  padding: 25px;
+}
+
+.inputs {
+  border-right: 1px solid #ccc;
+}
+
+.inputs label {
+  text-align: right;
+  padding-right: 5px;
+  margin-bottom: 5px;
+}
+
+.inputs input {
+  font-size: 20px;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+#tip-amount,
+#total-amount {
+  font-size: 60px;
+  margin-left: 5px;
+  color: #333;
+}
+
+p.label {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.input label,
+.input input {
+  display: block;
+}
